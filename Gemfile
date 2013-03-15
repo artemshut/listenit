@@ -11,6 +11,7 @@ gem 'twitter-bootstrap-rails'
 gem 'devise-i18n-views'
 gem 'ruby-mp3info'
 gem 'jquery-rails'
+gem 'paperclip'
 
 
 # Gems used only for assets and not required

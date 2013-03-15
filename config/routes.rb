@@ -1,4 +1,5 @@
 Listenit::Application.routes.draw do
+  resources :audios
   get "devise/registrationcontroller"
 
   get "sessions/new"

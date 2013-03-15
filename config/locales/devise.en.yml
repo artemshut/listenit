@@ -1,6 +1,9 @@
 # Additional translations at https://github.com/plataformatec/devise/wiki/I18n
 
 en:
+  sign_up: "Sign up"
+  sign_in: "Sign in"
+  admin: "Admin?"
   devise:
     confirmations:
       confirmed: "Your account was successfully confirmed. You are now signed in."
