@@ -12,7 +12,7 @@ gem 'devise-i18n-views'
 gem 'ruby-mp3info'
 gem 'jquery-rails'
 gem 'paperclip'
-
+gem 'acts_as_ferret', '>= 0.5'
 
 # Gems used only for assets and not required
 # in production environments by default.
