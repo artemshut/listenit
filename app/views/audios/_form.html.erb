@@ -15,7 +15,13 @@
     <%= f.label :audio %><br />
     <%= f.file_field :audio %>
   </div>
-  <div class="actions">
+  <div class="field">
+    <%= f.label :tag_list, "Tags (separated by commas)" %><br />
+    <%= f.text_field :tag_list %>
+  </div>
+
+
+    <div class="actions">
     <%= f.submit %>
   </div>
 <% end %>

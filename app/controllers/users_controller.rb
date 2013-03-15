@@ -11,4 +11,11 @@ class UsersController < ApplicationController
     flash[:success] = "User destroyed."
     redirect_to users_path
   end
+  def search
+    query = params[:search]
+
+    @results = User.find_by_name(query)
+
+  end
+
 end
