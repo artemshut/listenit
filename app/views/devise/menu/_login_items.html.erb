@@ -1,9 +1,27 @@
 <% if user_signed_in? %>
     <li>
-      <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
+      <%= link_to('Logout', destroy_user_session_path) %>
     </li>
 <% else %>
+    <% if admin_signed_in? %>
+
+        <li>
+          <%= link_to('Logout', destroy_admin_session_path) %>
+
+        </li>
+        <li>
+          <%= link_to('Users List', users_path) %>
+        </li>
+    <% else %>
     <li>
       <%= link_to('Login', new_user_session_path)  %>
     </li>
+    <li>
+      <%= link_to('Admin?', new_admin_session_path)  %>
+
+    </li>
+
+    <% end %>
 <% end %>
+
+

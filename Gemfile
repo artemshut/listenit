@@ -8,6 +8,9 @@ gem 'rails', '3.2.13.rc1'
 gem 'pg'
 gem 'devise'
 gem 'twitter-bootstrap-rails'
+gem 'devise-i18n-views'
+gem 'ruby-mp3info'
+gem 'jquery-rails'
 
 
 # Gems used only for assets and not required

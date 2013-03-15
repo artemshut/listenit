@@ -1,4 +1,6 @@
 Listenit::Application.routes.draw do
+  get "devise/registrationcontroller"
+
   get "sessions/new"
 
   get "home/index"
@@ -10,7 +12,9 @@ Listenit::Application.routes.draw do
   match '/signout', :to => 'sessions#destroy'
   match '/signin',  :to => 'sessions#new'
   match '/signup',  :to => 'users#sign_up'
-
+  match '/users',   :to => 'users#index'
+  match '/users/:id', :to => 'users#show',    :as => :user,         :via => :get
+  match '/users/:id', :to => 'users#destroy', :as => :destroy_user, :via => :delete
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

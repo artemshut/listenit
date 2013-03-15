@@ -43,6 +43,7 @@ GEM
       orm_adapter (~> 0.1)
       railties (~> 3.1)
       warden (~> 1.2.1)
+    devise-i18n-views (0.2.5)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
@@ -87,6 +88,7 @@ GEM
     rake (10.0.3)
     rdoc (3.12.2)
       json (~> 1.4)
+    ruby-mp3info (0.8)
     sass (3.2.6)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -119,9 +121,11 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   devise
+  devise-i18n-views
   jquery-rails
   pg
   rails (= 3.2.13.rc1)
+  ruby-mp3info
   sass-rails (~> 3.2.3)
   twitter-bootstrap-rails
   uglifier (>= 1.0.3)
