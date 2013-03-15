@@ -1,14 +1,17 @@
 class AudiosController < ApplicationController
   # GET /audios
   # GET /audios.json
-  def index
-    @audios = Audio.all
 
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @audios }
+
+  def index
+    if params[:tag]
+      @audios = Audio.tagged_with(params[:tag])
+    else
+      @audios = Audio.all
     end
   end
+
+
 
   # GET /audios/1
   # GET /audios/1.json

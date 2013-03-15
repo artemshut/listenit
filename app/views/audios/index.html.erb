@@ -11,19 +11,10 @@
 <% @audios.each do |audio| %>
   <tr>
     <td><%= audio.audio %></td>
-
+    <p>Tags: <%= raw audio.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %></p>
     <td><%= link_to 'Show', audio %></td>
     <td><%= link_to 'Edit', edit_audio_path(audio) %></td>
     <td><%= link_to 'Destroy', audio, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-
-
-
-
-
-
-
-    <p>Tags: <%= audio.tag_list %></p>
-
   </tr>
 <% end %>
 </table>
