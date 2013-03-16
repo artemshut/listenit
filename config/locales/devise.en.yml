@@ -11,6 +11,11 @@ en:
   locale: "Country"
   country_name_ru: "Russia"
   country_name_us: "United States"
+  remember_me: "Remember me"
+  password: "Password"
+  name: "Name"
+  forgot_your_password: "Forgot your password?"
+  didnt_reseived_instr: "Didn't receive confirmation instructions?"
   devise:
     confirmations:
       confirmed: "Your account was successfully confirmed. You are now signed in."

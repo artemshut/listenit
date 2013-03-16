@@ -10,6 +10,11 @@ ru:
   locale: "Страна"
   country_name_ru: "Россия"
   country_name_us: "Соединенные штаты"
+  remember_me: "Запомнить меня"
+  password: "Пароль"
+  name: "Имя"
+  forgot_your_password: "Забыли пароль?"
+  didnt_reseived_instr: "Не получили инструкции подтверждения?"
   devise:
     confirmations:
       confirmed: Ваша учётная запись подтверждена. Теперь вы вошли в систему.
