@@ -126,15 +126,6 @@
     <li><a href="#" data-src="http://s3.amazonaws.com/audiojs/11-mo-stars-mo-problems.mp3">mo stars mo problems</a></li>
   </ol>
 </div>
-
-
-<div id="tag_cloud">
-  <% tag_cloud Audio.tag_counts, %w{s m l} do |tag, css_class| %>
-      <%= link_to tag.name, tag_path(tag.name), class: css_class %>
-  <% end %>
-</div>
-
-
 <div id="shortcuts">
   <div>
     <h1>Keyboard shortcuts:</h1>

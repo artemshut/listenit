@@ -3,6 +3,10 @@ ru:
   sign_up: "Зарегистрироваться"
   language: "Язык"
   admin: "Админ?"
+  users_list: "Список пользователей"
+  logout: "Выйти"
+  edit_user: "Редактирование"
+  music: "Музыка"
   devise:
     confirmations:
       confirmed: Ваша учётная запись подтверждена. Теперь вы вошли в систему.

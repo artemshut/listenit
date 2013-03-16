@@ -4,6 +4,10 @@ en:
   sign_up: "Sign up"
   sign_in: "Sign in"
   admin: "Admin?"
+  users_list: "Users list"
+  logout: "Logout"
+  edit_user: "Edit user"
+  music: "Music"
   devise:
     confirmations:
       confirmed: "Your account was successfully confirmed. You are now signed in."

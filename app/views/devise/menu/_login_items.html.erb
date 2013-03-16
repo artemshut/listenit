@@ -1,16 +1,18 @@
 <% if user_signed_in? %>
     <li>
-      <%= link_to('Logout', destroy_user_session_path) %>
+      <%= link_to(t(:logout), destroy_user_session_path) %>
+
     </li>
+    <li> <%= link_to(t(:music), audios_path) %></li>
 <% else %>
     <% if admin_signed_in? %>
 
         <li>
-          <%= link_to('Logout', destroy_admin_session_path) %>
+          <%= link_to(t(:logout), destroy_admin_session_path) %>
 
         </li>
         <li>
-          <%= link_to('Users List', users_path) %>
+          <%= link_to(t(:users_list), users_path) %>
         </li>
     <% else %>
     <li>
