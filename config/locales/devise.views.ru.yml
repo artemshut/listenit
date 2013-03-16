@@ -7,6 +7,9 @@ ru:
   logout: "Выйти"
   edit_user: "Редактирование"
   music: "Музыка"
+  locale: "Страна"
+  country_name_ru: "Россия"
+  country_name_us: "Соединенные штаты"
   devise:
     confirmations:
       confirmed: Ваша учётная запись подтверждена. Теперь вы вошли в систему.

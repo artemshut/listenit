@@ -15,6 +15,9 @@
   <div><%= f.label :password_confirmation %><br />
   <%= f.password_field :password_confirmation %></div>
 
+  <div><%= f.label t(:locale)%><br/>
+  <%= f.select :locale, [[t(:country_name_us),'hot'],[t(:country_name_ru),'medium']] %></div>
+
   <div><%= f.submit "Sign up", :class => "btn" %></div>
 <% end %>
 

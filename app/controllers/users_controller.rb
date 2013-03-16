@@ -13,9 +13,7 @@ class UsersController < ApplicationController
   end
   def search
     query = params[:search]
-
     @results = User.find_by_name(query)
-
   end
 
 end

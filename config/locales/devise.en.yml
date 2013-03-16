@@ -8,6 +8,9 @@ en:
   logout: "Logout"
   edit_user: "Edit user"
   music: "Music"
+  locale: "Country"
+  country_name_ru: "Russia"
+  country_name_us: "United States"
   devise:
     confirmations:
       confirmed: "Your account was successfully confirmed. You are now signed in."

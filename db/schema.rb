@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130315161409) do
+ActiveRecord::Schema.define(:version => 20130316152812) do
 
   create_table "admins", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
@@ -41,13 +41,6 @@ ActiveRecord::Schema.define(:version => 20130315161409) do
     t.datetime "updated_at",         :null => false
   end
 
-  create_table "musics", :force => true do |t|
-    t.string   "image"
-    t.string   "document"
-    t.string   "audio"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
 
   create_table "taggings", :force => true do |t|
     t.integer  "tag_id"
@@ -86,6 +79,7 @@ ActiveRecord::Schema.define(:version => 20130315161409) do
     t.string   "name"
     t.boolean  "is_admin"
     t.boolean  "admin"
+    t.string   "locale"
   end
 
   add_index "users", ["confirmation_token"], :name => "index_users_on_confirmation_token", :unique => true
