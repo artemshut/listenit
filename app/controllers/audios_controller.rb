@@ -12,8 +12,6 @@ class AudiosController < ApplicationController
     end
   end
 
-
-
   # GET /audios/1
   # GET /audios/1.json
   def show
