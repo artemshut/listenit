@@ -11,4 +11,5 @@ class User < ActiveRecord::Base
   # attr_accessible :title, :body
 
   acts_as_ferret :fields => ['name']
+  has_many :audios
 end
