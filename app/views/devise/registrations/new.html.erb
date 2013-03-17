@@ -14,9 +14,9 @@
   <%= f.password_field :password_confirmation %></div>
 
   <div><%= f.label t(:locale)%><br/>
-  <%= f.select :locale, [[t(:country_name_us),'hot'],[t(:country_name_ru),'medium']] %></div>
+  <%= f.select :locale, [[t(:country_name_us),'en'],[t(:country_name_ru),'ru']] %></div>
 
-  <div><%= f.submit "Sign up", :class => "btn" %></div>
+  <div><%= f.submit t(:sign_up), :class => "btn" %></div>
 <% end %>
 
 <%= render "devise/shared/links" %>

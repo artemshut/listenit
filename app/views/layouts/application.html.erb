@@ -70,14 +70,12 @@
           <div class="span3">
             <div class="well sidebar-nav">
               <div id="myCanvasContainer">
-                <canvas width="160" height="240" id="myCanvas">
+                <canvas width="190" height="240" id="myCanvas">
                   <p>Anything in here will be replaced on browsers that support the canvas element</p>
                   <ul>
-                    <li><a href="http://www.google.com" target="_blank">Google</a></li>
-                    <li><a href="/tags/rock">Rock</a></li>
-                    <%= link_to("Soft", '/tags/soft') %>
-                    <li><a href="/salt">Salt</a></li>
-                    <li><a href="/vinegar">Vinegar</a></li>
+                    <% tag_cloud Audio.tag_counts, %w{s m l} do |tag, css_class| %>
+                        <%= link_to tag.name, tag_path(tag.name), class: css_class %>
+                    <% end %>
                   </ul>
                 </canvas>
               </div>

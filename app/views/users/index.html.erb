@@ -3,7 +3,7 @@
 <% if admin_signed_in? %>
   <% @users.each do |user| %>
         <%= user.name%>
-          <%= link_to "delete", user_path(user), :method => :delete, :confirm => "You sure?",
+          <%= link_to t(:delete), user_path(user), :method => :delete, :confirm => "You sure?",
                       :title => "Delete #{user.name}" %>
   <% end %>
   <% end %>

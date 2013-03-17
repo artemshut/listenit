@@ -4,7 +4,7 @@ class AudiosController < ApplicationController
 
 
   def index
-    @title = 'Available music'
+      @title = t(:music_list)
     if params[:tag]
       @audios = Audio.tagged_with(params[:tag])
     else
@@ -27,6 +27,7 @@ class AudiosController < ApplicationController
   # GET /audios/new
   # GET /audios/new.json
   def new
+    @title = t(:new_audio)
     @audio = Audio.new
 
     respond_to do |format|
@@ -46,7 +47,7 @@ class AudiosController < ApplicationController
     @audio = Audio.new(params[:audio])
 
     respond_to do |format|
-     # @audio.user = current_user
+      @audio.user = current_user
       if @audio.save
         format.html { redirect_to @audio, notice: 'Audio was successfully created.' }
         format.json { render json: @audio, status: :created, location: @audio }

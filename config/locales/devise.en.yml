@@ -16,6 +16,9 @@ en:
   name: "Name"
   forgot_your_password: "Forgot your password?"
   didnt_reseived_instr: "Didn't receive confirmation instructions?"
+  music_list: "Music list"
+  new_audio: "New audio"
+  delete: "Delete"
   devise:
     confirmations:
       confirmed: "Your account was successfully confirmed. You are now signed in."
