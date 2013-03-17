@@ -5,4 +5,5 @@ class Audio < ActiveRecord::Base
   validates_attachment_content_type :audio, :content_type => [ 'audio/mp3','audio/mpeg']
   attr_accessible :content, :name, :tag_list
   acts_as_taggable
+  belongs_to :user
 end
