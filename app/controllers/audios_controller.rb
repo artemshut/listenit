@@ -4,6 +4,7 @@ class AudiosController < ApplicationController
 
 
   def index
+    @title = 'Available music'
     if params[:tag]
       @audios = Audio.tagged_with(params[:tag])
     else
@@ -17,7 +18,6 @@ class AudiosController < ApplicationController
   # GET /audios/1.json
   def show
     @audio = Audio.find(params[:id])
-
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @audio }
@@ -46,7 +46,7 @@ class AudiosController < ApplicationController
     @audio = Audio.new(params[:audio])
 
     respond_to do |format|
-      @audio.user = current_user
+     # @audio.user = current_user
       if @audio.save
         format.html { redirect_to @audio, notice: 'Audio was successfully created.' }
         format.json { render json: @audio, status: :created, location: @audio }

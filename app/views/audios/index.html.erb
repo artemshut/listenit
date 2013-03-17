@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <th>Audio</th>
+    <th><%= @title %></th>
     <th></th>
     <th></th>
     <th></th>
@@ -10,7 +10,7 @@
 
 <% @audios.each do |audio| %>
   <tr>
-    <td><%= audio.audio %>
+    <td><%= audio.audio_file_name %>
       <br/>
     Tags: <%= raw audio.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %></td>
     <td><%= link_to 'Show', audio %></td>
