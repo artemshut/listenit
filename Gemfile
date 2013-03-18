@@ -15,6 +15,12 @@ gem 'paperclip'
 gem 'acts_as_ferret', '>= 0.5'
 gem 'acts-as-taggable-on'
 gem 'will_paginate'
+gem 'sunspot_rails'
+gem 'progress_bar'
+group :development do
+  gem 'sunspot_solr'
+end
+
 
 # Gems used only for assets and not required
 # in production environments by default.
