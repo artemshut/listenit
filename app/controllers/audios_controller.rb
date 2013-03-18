@@ -1,15 +1,15 @@
 class AudiosController < ApplicationController
-  # GET /audios
-  # GET /audios.json
-
 
   def index
       @title = t(:music_list)
+
     if params[:tag]
       @audios = Audio.tagged_with(params[:tag])
+
     else
       @audios = Audio.all
     end
+
   end
 
   # GET /audios/1

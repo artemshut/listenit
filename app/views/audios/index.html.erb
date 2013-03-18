@@ -8,8 +8,10 @@
     <th></th>
   </tr>
 <% @audios.each do |audio| %>
+
   <tr>
     <td><%= audio.audio_file_name %>
+
       <br/>
     Tags: <%= raw audio.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %>
     <br/>

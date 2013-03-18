@@ -14,6 +14,7 @@ gem 'jquery-rails'
 gem 'paperclip'
 gem 'acts_as_ferret', '>= 0.5'
 gem 'acts-as-taggable-on'
+gem 'will_paginate'
 
 # Gems used only for assets and not required
 # in production environments by default.

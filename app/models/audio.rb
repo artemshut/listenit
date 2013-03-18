@@ -6,4 +6,5 @@ class Audio < ActiveRecord::Base
   attr_accessible :content, :name, :tag_list
   acts_as_taggable
   belongs_to :user
+
 end
