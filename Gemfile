@@ -17,6 +17,7 @@ gem 'acts-as-taggable-on'
 gem 'will_paginate'
 gem 'sunspot_rails'
 gem 'progress_bar'
+gem 'select2-rails'
 group :development do
   gem 'sunspot_solr'
 end

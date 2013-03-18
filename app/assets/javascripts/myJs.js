@@ -9,6 +9,7 @@ $(function() {
     TagCanvas.textColour = '#aa';
     TagCanvas.outlineColour = '#ff9999';
     TagCanvas.Start('myCanvas');
+
 });
 
 $(function() {

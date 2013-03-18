@@ -26,6 +26,16 @@ class AudiosController < ApplicationController
 
   end
 
+  def audio_download
+    @music = Audio.find(params[:id])
+    file_path = @audio.audio_file_name
+    if !file_path.nil?
+      send_file "#{Rails.root}/public/system/audios/#{@music.id}/original/#{file_path}", :x_sendfile => true
+    else
+      redirect_to audio_url
+    end
+  end
+
   # GET /audios/1
   # GET /audios/1.json
   def show
