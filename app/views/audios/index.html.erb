@@ -1,9 +1,4 @@
 <h1>Listing audios</h1>
-<%= form_tag audios_path, :method => :get do %>
-    <p>
-      <%= text_field_tag :search, params[:search] %>
-      <%= submit_tag "Search", :name => nil %>
-<% end %>
 <table>
   <tr>
     <th><%= @title %></th>
