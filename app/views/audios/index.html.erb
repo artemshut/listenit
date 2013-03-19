@@ -2,6 +2,7 @@
 <table>
   <tr>
     <th><%= @title %></th>
+
     <th></th>
     <th></th>
     <th></th>
@@ -14,6 +15,7 @@
           <br/>
           Tags: <%= raw audio.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %>
           <br/>
+          <%= audio.display_name %>
           Description: <%= audio.description %>
         </td>
         <td><%= link_to 'Show', audio %></td>

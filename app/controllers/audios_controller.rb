@@ -70,7 +70,7 @@ class AudiosController < ApplicationController
     @audio = Audio.new(params[:audio])
 
     respond_to do |format|
-      @audio.user = current_user
+
       if @audio.save
         format.html { redirect_to @audio, notice: 'Audio was successfully created.' }
         format.json { render json: @audio, status: :created, location: @audio }
