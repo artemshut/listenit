@@ -2,9 +2,6 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13.rc1'
 
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
 gem 'pg'
 gem 'devise'
 gem 'twitter-bootstrap-rails'
@@ -18,6 +15,8 @@ gem 'will_paginate'
 gem 'sunspot_rails'
 gem 'progress_bar'
 gem 'select2-rails'
+
+
 group :development do
   gem 'sunspot_solr'
 end
@@ -28,6 +27,13 @@ end
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
+  gem 'bootswatch-rails'
+  gem 'therubyracer'
+  gem 'bootstrap-sass', :github => "trisweb/bootstrap-sass"
+  gem 'less-rails'
+  gem 'less-rails-bootstrap'
+  gem 'compass_twitter_bootstrap'
+  gem 'compass-rails'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby

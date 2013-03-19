@@ -13,6 +13,7 @@ class AudiosController < ApplicationController
         fulltext params[:search]
       end
       @audios = @search.results
+      Audio.paginate(:page => params[:page], :per_page => 10)
     end
   def display_name
         @display_name ||= if audio? && metadata?

@@ -11,5 +11,6 @@ class Audio < ActiveRecord::Base
   searchable do
     text :audio, :description, :tag_list, :audio_file_name
   end
+  self.per_page = 10
 
 end

@@ -6,22 +6,22 @@
     <th></th>
     <th></th>
   </tr>
-<% @audios.each do |audio| %>
+  <% @audios.each do |audio| %>
 
-  <tr>
-    <td><%= audio.audio_file_name %>
+      <tr>
+        <td><%= audio.audio_file_name %>
 
-      <br/>
-    Tags: <%= raw audio.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %>
-    <br/>
-    Description: <%= audio.description %>
-    </td>
-    <td><%= link_to 'Show', audio %></td>
-    <td><%= link_to 'Edit', edit_audio_path(audio) %></td>
-    <td><%= link_to 'Destroy', audio, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+          <br/>
+          Tags: <%= raw audio.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %>
+          <br/>
+          Description: <%= audio.description %>
+        </td>
+        <td><%= link_to 'Show', audio %></td>
+        <td><%= link_to 'Edit', edit_audio_path(audio) %></td>
+        <td><%= link_to 'Destroy', audio, method: :delete, data: { confirm: 'Are you sure?' } %></td>
 
-  </tr>
-<% end %>
+      </tr>
+  <% end %>
 </table>
 
 <br />
