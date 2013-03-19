@@ -9,7 +9,11 @@ class Audio < ActiveRecord::Base
   end
 
   def assign_tags
-
+    if @tag_list
+      self.tags = @tag_list.split(/,/).uniq.map do |name|
+        Tag.where(:name => name).first || Tag.create(:name => name)
+      end
+    end
   end
 
   has_attached_file :audio
