@@ -15,17 +15,8 @@ class AudiosController < ApplicationController
       @audios = @search.results
       Audio.paginate(:page => params[:page], :per_page => 10)
     end
-  def display_name
-        @display_name ||= if audio? && metadata?
-                            artist, title = metadata.values_at('artist', 'title')
-                            title.present? ? [title, artist].compact.join(' - ').force_encoding('UTF-8') : upload_file_name
-                          else
-                            audio_file_name
-                          end
-      end
-
-
   end
+
 
   def audio_download
     @music = Audio.find(params[:id])

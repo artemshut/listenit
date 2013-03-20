@@ -1,11 +1,1 @@
-<% if user_signed_in? %>
-    <li>
-      <%= link_to(t(:edit_user), edit_user_registration_path) %>
-    </li>
-<% elsif admin_signed_in? %>
-
-<% else %>
-    <li>
-      <%= link_to(t(:sign_up), new_user_registration_path)  %>
-    </li>
-<% end %>
+<%= user_log_in %>
