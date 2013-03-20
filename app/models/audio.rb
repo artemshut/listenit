@@ -1,7 +1,7 @@
 class Audio < ActiveRecord::Base
   attr_accessible :audio, :description, :content, :tag_list, :audio_file_name
   attr_writer :tag_list
-  after_save :assign_tags, :extract_metadata
+
   serialize :metadata
 
   def tag_list

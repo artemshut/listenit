@@ -5,8 +5,6 @@ class AudiosController < ApplicationController
 
     if params[:tag]
       @audios = Audio.tagged_with(params[:tag])
-
-
     else
       @audios = Audio.all
       @search = Audio.search do
