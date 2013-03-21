@@ -1,8 +1,12 @@
 class Audio < ActiveRecord::Base
   attr_accessible :audio, :description, :content, :tag_list, :audio_file_name
   attr_writer :tag_list
-
+  before_save :extract_metadata
   serialize :metadata
+  has_attached_file :audio
+  validates_attachment_presence :audio
+  validates :tag_list, :length => {:maximum => 8}
+  validates_attachment_content_type :audio, :content_type => [ 'audio/mp3','audio/mpeg']
 
   def tag_list
     @tag_list || tags.map(&:name).join(", ")
@@ -16,10 +20,7 @@ class Audio < ActiveRecord::Base
     end
   end
 
-  has_attached_file :audio
-  validates_attachment_presence :audio
-  validates :tag_list, :length => {:maximum => 8}
-  validates_attachment_content_type :audio, :content_type => [ 'audio/mp3','audio/mpeg']
+
 
 
   acts_as_taggable
@@ -27,7 +28,7 @@ class Audio < ActiveRecord::Base
   searchable do
     text :audio, :description, :tag_list, :audio_file_name
   end
-  self.per_page = 10
+
   def display_name
     @display_name ||= if audio? && metadata?
                         artist, title = metadata.values_at('artist', 'title')

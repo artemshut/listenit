@@ -10,12 +10,14 @@
   <% @audios.each do |audio| %>
 
       <tr>
-        <td><%= audio.audio_file_name %>
+        <td>
+
+          <%= audio.display_name %>
 
           <br/>
           Tags: <%= raw audio.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %>
           <br/>
-          <%= audio.display_name %>
+
           Description: <%= audio.description %>
         </td>
         <td><%= link_to 'Show', audio %></td>

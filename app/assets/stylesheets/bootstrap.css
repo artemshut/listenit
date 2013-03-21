@@ -13,6 +13,22 @@
 .clearfix {
     *zoom: 1;
 }
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 142px; /* .push must be the same height as .footer */
+}
 
 .clearfix:before,
 .clearfix:after {
@@ -2284,7 +2300,7 @@ table th[class*="span"],
     *margin-right: .3em;
     line-height: 14px;
     vertical-align: text-top;
-    background-image: url("../img/glyphicons-halflings.png");
+    background-image: url("favicon.png");
     background-position: 14px 14px;
     background-repeat: no-repeat;
 }
@@ -2308,7 +2324,7 @@ table th[class*="span"],
 .dropdown-submenu:focus > a > [class^="icon-"],
 .dropdown-submenu:hover > a > [class*=" icon-"],
 .dropdown-submenu:focus > a > [class*=" icon-"] {
-    background-image: url("../img/glyphicons-halflings-white.png");
+    background-image: url("favicon.png");
 }
 
 .icon-glass {

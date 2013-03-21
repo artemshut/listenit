@@ -10,5 +10,9 @@ class ApplicationController < ActionController::Base
     end
   end
 
+  def change_stylesheet
+
+  end
+
 
 end

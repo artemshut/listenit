@@ -11,7 +11,7 @@ class AudiosController < ApplicationController
         fulltext params[:search]
       end
       @audios = @search.results
-      Audio.paginate(:page => params[:page], :per_page => 10)
+
     end
   end
 
@@ -20,7 +20,7 @@ class AudiosController < ApplicationController
     @music = Audio.find(params[:id])
     file_path = @audio.audio_file_name
     if !file_path.nil?
-      send_file "#{Rails.root}/public/system/audios/#{@music.id}/original/#{file_path}", :x_sendfile => true
+      send_file "#{Rails.root}/public/system/audios/#{@music.id}/original/#{file_path}", :x_sendfile => false
     else
       redirect_to audio_url
     end
@@ -97,15 +97,5 @@ class AudiosController < ApplicationController
       format.json { head :no_content }
     end
   end
-  private
 
-# Retrieves metadata for MP3s
-  def extract_metadata
-    return unless audio?
-    path = upload.queued_for_write[:original].path
-    open_opts = { :encoding => 'utf-8' }
-    Mp3Info.open(path, open_opts) do |mp3info|
-      self.metadata = mp3info.tag
-    end
-  end
 end

@@ -1,7 +1,8 @@
 <p>
-  <b><%= @title %></b>
-  <b><%= @audio.display_name %></b>
-  <a href="/audios/<%=@audio.id%>"> Download file</a>
+
+  <b>Audio:</b>
+  <%= @audio.display_name %>
+  <a href="/audio/<%=@audio.id%>" style="text-decoration:none"><%= @audio.audio_file_name %></a>
 </p>
 
 
