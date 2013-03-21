@@ -1,5 +1,7 @@
 class AudiosController < ApplicationController
 
+  caches_page :index
+
   def index
       @title = t(:music_list)
 
@@ -56,8 +58,8 @@ class AudiosController < ApplicationController
   # POST /audios
   # POST /audios.json
   def create
+    expire_page :action => :index
     @audio = Audio.new(params[:audio])
-
     respond_to do |format|
 
       if @audio.save

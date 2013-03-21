@@ -15,7 +15,7 @@ gem 'will_paginate'
 gem 'sunspot_rails'
 gem 'progress_bar'
 gem 'select2-rails'
-
+#gem 'ajaxful_rating'
 
 group :development do
   gem 'sunspot_solr'
