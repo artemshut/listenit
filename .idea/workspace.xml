@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b641f662-d097-493f-ba0e-fee824166b0d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/development/user/segments" afterPath="$PROJECT_DIR$/index/development/user/segments" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130315125729_create_audios.rb" afterPath="$PROJECT_DIR$/db/migrate/20130315125729_create_audios.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/audio.rb" afterPath="$PROJECT_DIR$/app/models/audio.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/audios_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/audios_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap-responsive.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap-responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="$PROJECT_DIR$/config/environment.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/audios/index.html.erb" afterPath="$PROJECT_DIR$/app/views/audios/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/index.html.erb" afterPath="$PROJECT_DIR$/app/views/users/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/audios/show.html.erb" afterPath="$PROJECT_DIR$/app/views/audios/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/myJs.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/myJs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="listenit.iws" />
@@ -28,7 +21,7 @@
     <file path="/bootstrap.css" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363874066511" ignored="false" />
     <file path="/application.html.erb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363874860482" ignored="false" />
     <file path="/sessions_controller.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1362355070336" ignored="false" />
-    <file path="/index.html.erb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363876695247" ignored="false" />
+    <file path="/index.html.erb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363878900445" ignored="false" />
     <file path="/20130303224117_devise_create_users.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363345608661" ignored="false" />
     <file path="/new.html.erb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363796672547" ignored="false" />
     <file path="/user.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363527328687" ignored="false" />
@@ -48,7 +41,7 @@
     <file path="/registration_controller.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1362582056107" ignored="false" />
     <file path="/confirmation_instructions.html.erb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363348532702" ignored="false" />
     <file path="/users_controller.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363360944726" ignored="false" />
-    <file path="/home_controller.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363445746101" ignored="false" />
+    <file path="/home_controller.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363877830771" ignored="false" />
     <file path="/20130303224700_devise_create_admins.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363346378810" ignored="false" />
     <file path="/20130315110736_add_confirmable_to_devise_v1.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363345924580" ignored="false" />
     <file path="/_form.html.erb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363687945915" ignored="false" />
@@ -57,13 +50,13 @@
     <file path="/en.yml" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363353629112" ignored="false" />
     <file path="/devise.views.ru.yml" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363534636196" ignored="false" />
     <file path="/devise.en.yml" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363534627093" ignored="false" />
-    <file path="/myJs.js" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363571807020" ignored="false" />
+    <file path="/myJs.js" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363878755725" ignored="false" />
     <file path="/audios_controller.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363873056987" ignored="false" />
     <file path="/show.html.erb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363876054336" ignored="false" />
     <file path="/20130316152812_add_locale_to_users.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363447943029" ignored="false" />
     <file path="/20130317133745_add_userid_to_audios.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363527653847" ignored="false" />
     <file path="/20130317134214_add_userid_to_audios.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363528815116" ignored="false" />
-    <file path="/audio.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363875227609" ignored="false" />
+    <file path="/audio.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363885072542" ignored="false" />
     <file path="/20130317135956_add_description_to_audios.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363530238978" ignored="false" />
     <file path="/20130317140106_add_userid_to_audios.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363528887811" ignored="false" />
     <file path="/schema.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363528981653" ignored="false" />
@@ -97,48 +90,28 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/audios/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.5">
-              <folding>
-                <element signature="e#84#112#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="audios_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/audios_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="40" selection-start="1873" selection-end="1873" vertical-scroll-proportion="-10.4">
+            <state line="59" column="4" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="audios_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/audios_helper.rb">
+      <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environment.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="7" column="38" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="audio.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="audio.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/audio.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="31" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/audios/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="10" column="5" selection-start="473" selection-end="473" vertical-scroll-proportion="0.27027026">
               <folding />
             </state>
           </provider>
@@ -147,7 +120,34 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/audios/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="37" selection-start="432" selection-end="432" vertical-scroll-proportion="-12.75">
+            <state line="23" column="0" selection-start="432" selection-end="432" vertical-scroll-proportion="-10.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myJs.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/myJs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="22" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.js.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin.js.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -156,7 +156,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="49" selection-start="733" selection-end="733" vertical-scroll-proportion="9.489796">
+            <state line="17" column="49" selection-start="0" selection-end="3610" vertical-scroll-proportion="-10.625">
               <folding />
             </state>
           </provider>
@@ -171,19 +171,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="39" selection-start="415" selection-end="415" vertical-scroll-proportion="0.4208494">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ferret_server.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/ferret_server.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="11" column="66" selection-start="0" selection-end="1791" vertical-scroll-proportion="-6.875">
               <folding />
             </state>
           </provider>
@@ -207,22 +198,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/tag.rb" />
-        <option value="$PROJECT_DIR$/app/views/audios/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/audios/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap-responsive.css" />
         <option value="$PROJECT_DIR$/app/views/devise/menu/_registration_items.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130315125729_create_audios.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/audios_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/audio.rb" />
-        <option value="$PROJECT_DIR$/app/views/audios/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/audios/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/togglebutton.css" />
+        <option value="$PROJECT_DIR$/app/views/audios/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/myJs.js" />
+        <option value="$PROJECT_DIR$/app/controllers/audios_controller.rb" />
+        <option value="$PROJECT_DIR$/config/environment.rb" />
+        <option value="$PROJECT_DIR$/app/models/audio.rb" />
       </list>
     </option>
   </component>
@@ -275,96 +266,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="listenit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="listenit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="listenit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="listenit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="listenit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="audios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="audios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="000" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="000" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="listenit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="listenit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="audios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="audios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="000" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="000" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="029" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="original" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -635,10 +536,6 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -655,6 +552,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1040,34 +941,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130315161409_acts_as_taggable_on_migration.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130315125729_create_audios.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="23" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="17" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/audios/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/audios/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1103,20 +976,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/audios/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="37" selection-start="432" selection-end="432" vertical-scroll-proportion="-12.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/audios_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="40" selection-start="1873" selection-end="1873" vertical-scroll-proportion="-10.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/audios/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="-2.5">
@@ -1133,23 +992,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/audio.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="31" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="49" selection-start="733" selection-end="733" vertical-scroll-proportion="9.489796">
+        <state line="17" column="49" selection-start="0" selection-end="3610" vertical-scroll-proportion="-10.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="39" selection-start="415" selection-end="415" vertical-scroll-proportion="0.4208494">
+        <state line="11" column="66" selection-start="0" selection-end="1791" vertical-scroll-proportion="-6.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/admin.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/audios/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="432" selection-end="432" vertical-scroll-proportion="-10.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/myJs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="22" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/audios_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="4" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="38" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/audio.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="5" selection-start="473" selection-end="473" vertical-scroll-proportion="0.27027026">
           <folding />
         </state>
       </provider>

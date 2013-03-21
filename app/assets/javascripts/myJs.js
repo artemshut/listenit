@@ -56,3 +56,10 @@ $(function() {
         }
     })
 });
+
+$(document).ready(function (){
+    $('#audio_new_path').submit(function (){
+        $.post($(this).attr('action'), $(this).serialize(), null, "script");
+        return false;
+    });
+});

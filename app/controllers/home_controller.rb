@@ -8,4 +8,6 @@ class HomeController < ApplicationController
     @results = User.find_by_name(query)
 
   end
+
+
 end

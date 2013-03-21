@@ -7,7 +7,8 @@ class Audio < ActiveRecord::Base
   validates_attachment_presence :audio
   validates :tag_list, :length => {:maximum => 8}
   validates_attachment_content_type :audio, :content_type => [ 'audio/mp3','audio/mpeg']
-
+#  ajaxful_rateable :stars => 5, :dimensions => [:speed, :beauty, :price]
+  has
   def tag_list
     @tag_list || tags.map(&:name).join(", ")
   end
