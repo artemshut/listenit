@@ -37,13 +37,14 @@
           <a class="brand" href=<%= root_path %>>Listenit</a>
           <div class="container nav-collapse">
             <ul class="nav">
+              <li><%= my_page_link %>  </li>
               <%= render 'devise/menu/registration_items' %>
               <%= render 'devise/menu/login_items' %>
+
               <li>
                 <%= form_tag audios_path, :method => :get do %>
-
-                    <%= text_field_tag :search, params[:search] %>
-                    <%= submit_tag "Search", :name => nil %>
+                <%= text_field_tag :search, params[:search] %>
+                <%= submit_tag "Search", :name => nil %>
                 <% end %>
               </li>
               <li class="dropdown" id="preview-menu">
@@ -82,6 +83,8 @@
                       <% tag_cloud Audio.tag_counts, %w{s m l} do |tag, css_class| %>
                           <%= link_to tag.name, tag_path(tag.name), class: css_class %>
                       <% end %>
+
+
 
                   </ul>
                 </canvas>

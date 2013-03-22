@@ -19,6 +19,7 @@ en:
   music_list: "Music list"
   new_audio: "New audio"
   delete: "Delete"
+  audio_confirm: 'Audio was successfully created.'
   devise:
     confirmations:
       confirmed: "Your account was successfully confirmed. You are now signed in."

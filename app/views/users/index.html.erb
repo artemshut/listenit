@@ -8,6 +8,7 @@
         <td><%= user.name%>
           <%= link_to t(:delete), user_path(user), :method => :delete, :confirm => "You sure?",
                       :title => "Delete #{user.name}" %> </td> </tr>
+    <% end %>
   <% end %>
-  <% end %>  </table>
+  </table>
 </ul>

@@ -18,6 +18,25 @@
 }
 html, body {
     height: 100%;
+    padding-top: 60px;
+}
+.signup_button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    width: 190px;
+    color: #fff;
+    background: #123456;
+    font-size: 150%;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.round {
+    -moz-border-radius:    10px;
+    -webkit-border-radius: 10px;
+    border-radius:         10px;
 }
 
 .wrapper {
@@ -348,6 +367,7 @@ a:focus {
 
 .span3 {
     width: 220px;
+    padding-top: 60px;
 }
 
 .span2 {
@@ -6218,6 +6238,7 @@ body {
     background-image: -moz-radial-gradient(circle, #12a5b0, #0f8790);
     background-image: -o-radial-gradient(circle, #12a5b0, #0f8790);
     background-repeat: no-repeat;
+    padding-top: 80px;
 }
 
 hr {

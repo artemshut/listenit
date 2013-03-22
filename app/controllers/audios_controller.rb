@@ -15,6 +15,7 @@ class AudiosController < ApplicationController
       @audios = @search.results
 
     end
+
   end
 
 
@@ -60,10 +61,10 @@ class AudiosController < ApplicationController
   def create
     expire_page :action => :index
     @audio = Audio.new(params[:audio])
+    @audio.userid = current_user.id
     respond_to do |format|
-
       if @audio.save
-        format.html { redirect_to @audio, notice: 'Audio was successfully created.' }
+        format.html { redirect_to @audio, notice: t(:audio_confirm) }
         format.json { render json: @audio, status: :created, location: @audio }
       else
         format.html { render action: "new" }
@@ -96,7 +97,8 @@ class AudiosController < ApplicationController
     @audio.destroy
 
     respond_to do |format|
-      format.html { redirect_to audios_url }
+      flash[:success] = "Audio deleted"
+      format.html { redirect_to  "/users/#{current_user.id}" }
       format.json { head :no_content }
     end
   end

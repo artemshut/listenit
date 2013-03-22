@@ -13,6 +13,28 @@
 .clearfix {
     *zoom: 1;
 }
+.signup_button {
+
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    width: 190px;
+    color: #000000;
+    background: #33b5e5;
+    font-size: 150%;
+    font-weight: bold;
+    padding: 20px;
+
+}
+.round {
+
+    -moz-border-radius:    10px;
+    -webkit-border-radius: 10px;
+    border-radius:         10px;
+
+}
 
 .clearfix:before,
 .clearfix:after {
@@ -332,6 +354,7 @@ a:focus {
 
 .span3 {
     width: 220px;
+    padding-top: 60px;
 }
 
 .span2 {
@@ -4413,6 +4436,7 @@ input[type="submit"].btn.btn-mini {
     font-weight: 200;
     color: #adafae;
     text-shadow: 0 1px 0 #020202;
+    font-family: 'Calibri', cursive;
 }
 
 .navbar .brand:hover,
@@ -6197,6 +6221,7 @@ body {
     background-image: linear-gradient(to bottom, #060606, #252a30);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff060606', endColorstr='#ff252a30', GradientType=0);
+    padding-top: 80px;
 }
 
 .page-header {

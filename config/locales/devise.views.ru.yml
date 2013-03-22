@@ -18,6 +18,7 @@ ru:
   music_list: "Список музыки"
   new_audio: "Новая запись"
   delete: "Удалить"
+  audio_confirm: 'Трек успешно добавлен'
   devise:
     confirmations:
       confirmed: Ваша учётная запись подтверждена. Теперь вы вошли в систему.
