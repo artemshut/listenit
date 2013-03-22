@@ -100,6 +100,10 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.21)
     multi_json (1.7.1)
+    multiuploader (1.0.0)
+      compass
+      jquery-rails
+      rails
     nokogiri (1.5.7)
     options (2.3.0)
       fattr
@@ -201,6 +205,7 @@ DEPENDENCIES
   jquery-rails
   less-rails
   less-rails-bootstrap
+  multiuploader
   paperclip
   pg
   progress_bar

@@ -15,6 +15,7 @@ gem 'will_paginate'
 gem 'sunspot_rails'
 gem 'progress_bar'
 gem 'select2-rails'
+gem 'multiuploader'
 #gem 'ajaxful_rating'
 
 group :development do

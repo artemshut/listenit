@@ -7,9 +7,11 @@ class User < ActiveRecord::Base
 
   # Setup accessible (or protected) attributes for your model
   attr_accessible :name , :email, :password, :password_confirmation, :remember_me, :confirmed_at, :admin,
-                  :confirmation_token, :locale
-  # attr_accessible :title, :body
+                  :confirmation_token, :locale, :style_id
+
 
   acts_as_ferret :fields => ['name']
   has_many :audios
+  belongs_to :styles
+
 end

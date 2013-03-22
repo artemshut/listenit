@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-  before_filter :set_locale
+  before_filter :set_locale #set_style
 
   def set_locale
     if user_signed_in?
@@ -10,9 +10,7 @@ class ApplicationController < ActionController::Base
     end
   end
 
-  def change_stylesheet
 
-  end
 
 
 end

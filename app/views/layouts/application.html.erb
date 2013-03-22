@@ -15,7 +15,8 @@
     <link href="http://feeds.feedburner.com/bootswatch" rel="alternate" type="application/rss+xml" title="Bootswatch">
     <%= stylesheet_link_tag "player", :media => "all" %>
 
-    <%= stylesheet_link_tag "bootstrap-responsive", :media => "all" %>
+    <%=  add_style_id %>
+    <%=  change_stylesheet %>
     <%= stylesheet_link_tag "audios", :media => "all" %>
 
 
@@ -48,10 +49,22 @@
                 <% end %>
               </li>
               <li class="dropdown" id="preview-menu">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Style<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><%= link_to input_stylesheet[1] %></li>
+                  <li><%= link_to input_stylesheet[0] %></li>
+                  <li><input type="hidden"></li>
+
+                </ul>
+
+              </li>
+
+              <li>
+                <li class="dropdown" id="preview-menu">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#"><%= @name %><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <%= user_register_link %>
-                  <li><a target="_blank" href="bootstrap.css">bootstrap.css</a></li>
+                  <li><a target="_blank" href="Dark.css">bootstrap.css</a></li>
                   <li class="divider"></li>
                   <li><a target="_blank" href="variables.less">variables.less</a></li>
                   <li><a target="_blank" href="bootswatch.less">bootswatch.less</a></li>

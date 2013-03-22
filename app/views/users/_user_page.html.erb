@@ -1,0 +1,63 @@
+<div class="row">
+  <div class="span4">
+
+    <h3 id="tabs"><%= @user.name %>'s profile.</h3>
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#A" data-toggle="tab">All music</a></li>
+      <li><a href="#B" data-toggle="tab">Search results</a></li>
+      <li><a href="#C" data-toggle="tab">My playlist</a></li>
+      <li><a href="#D" data-toggle="tab">My tracks</a></li>
+    </ul>
+    <div class="tabbable">
+      <div class="tab-content">
+        <div class="tab-pane active" id="A">
+          <p><table>
+          <tr>
+
+
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+
+          <% Audio.all.each do |audio| %>
+
+              <tr>
+                <td>
+
+                  <%= audio.display_name %>
+
+                  <br/>
+                  Tags: <%= raw audio.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %>
+                  <br/>
+
+                  <div id="toggle_panel">
+                    Description: <%= audio.description %>
+                  </div>
+
+                </td>
+                <td><%= link_to 'Show', audio %></td>
+                <td><%= link_to 'Edit', edit_audio_path(audio) %></td>
+                <td><%= link_to 'Destroy', audio, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+
+              </tr>
+          <% end %>
+
+        </table>
+          <%= link_to 'New Audio', new_audio_path %>
+
+
+          </div>
+        <div class="tab-pane" id="B">
+          <p>Howdy, I'm in Section B.</p>
+        </div>
+        <div class="tab-pane" id="C">
+          <p>What up girl, this is Section C.</p>
+        </div>
+        <div class="tab-pane" id="D">
+          <p>What up girl, this is Section C.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
