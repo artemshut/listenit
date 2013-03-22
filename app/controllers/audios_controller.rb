@@ -2,7 +2,6 @@ class AudiosController < ApplicationController
 
   def index
       @title = t(:music_list)
-
     if params[:tag]
       @audios = Audio.tagged_with(params[:tag])
     else
@@ -17,12 +16,12 @@ class AudiosController < ApplicationController
   end
 
   def audio_download
-    @music = Audio.find(params[:id])
+    @audio = Audio.find(params[:id])
     file_path = @audio.audio_file_name
     if !file_path.nil?
-      send_file "#{Rails.root}/public/system/audios/#{@music.id}/original/#{file_path}", :x_sendfile => false
-    else
       redirect_to audio_url
+    else
+      send_file "#{Rails.root}/public/system/audios", :x_sendfile => true
     end
   end
 

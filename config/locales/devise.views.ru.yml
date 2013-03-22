@@ -20,6 +20,8 @@ ru:
   delete: "Удалить"
   audio_confirm: 'Трек успешно добавлен'
   audio_deleted: 'Трек успешно удален'
+  style: "Стиль"
+  search: "Поиск"
   devise:
     confirmations:
       confirmed: Ваша учётная запись подтверждена. Теперь вы вошли в систему.
