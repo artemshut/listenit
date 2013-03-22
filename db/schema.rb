@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130322103543) do
+ActiveRecord::Schema.define(:version => 20130322181428) do
 
   create_table "admins", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
@@ -52,6 +52,16 @@ ActiveRecord::Schema.define(:version => 20130322103543) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+
+  create_table "ratings", :force => true do |t|
+    t.integer  "rating",                      :default => 0
+    t.datetime "created_at",                                  :null => false
+    t.string   "rateable_type", :limit => 15, :default => ""
+    t.integer  "rateable_id",                 :default => 0
+    t.integer  "user_id",                     :default => 0
+  end
+
+  add_index "ratings", ["user_id"], :name => "fk_ratings_user"
 
   create_table "styles", :force => true do |t|
     t.string   "style_name"

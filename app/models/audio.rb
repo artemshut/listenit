@@ -1,5 +1,6 @@
 class Audio < ActiveRecord::Base
   attr_accessible :audio, :description, :content, :tag_list, :audio_file_name
+  #acts_as_rateable
   attr_writer :tag_list
   before_save :extract_metadata
   serialize :metadata
@@ -23,7 +24,7 @@ class Audio < ActiveRecord::Base
 
 
 
-  acts_as_rateable
+
   acts_as_taggable
   belongs_to :user
   searchable do

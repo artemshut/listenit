@@ -15,8 +15,9 @@ gem 'will_paginate'
 gem 'sunspot_rails'
 gem 'progress_bar'
 gem 'select2-rails'
-gem 'jquery-fileupload-rails'
 gem 'acts_as_rateable'
+gem 'jquery-fileupload-rails'
+
 
 
 group :development do

@@ -1,0 +1,29 @@
+<ul class='star-rating'>
+  <li>
+    <%= link_to("1", {:url => { :controller => "ratings",
+                                       :action => "rate", :id => Audio.first.id, :rating1 => 1}}, :remote => true,
+                       :class => 'one-star', :name => '1 stars out of 5') %>
+  </li>
+
+  <li>
+    <%= link_to("2", {:url => { :controller => "ratings",
+                                       :action => "rate", :id => Audio.first.id, :rating1 => 2}}, :remote => true,
+                       :class => 'two-stars', :name => '1 stars out of 5') %>
+  </li>
+  <li>
+    <%= link_to("3", {:url => { :controller => "ratings",
+                                       :action => "rate", :id => Audio.first.id, :rating1 => 3}}, :remote => true,
+                       :class => 'three-stars', :name => '1 stars out of 5') %>
+  </li>
+  <li>
+    <%= link_to("4", {:url => { :controller => "ratings",
+                                       :action => "rate", :id => Audio.first.id, :rating1 => 4}}, :remote => true,
+                       :class => 'four-stars', :name => '1 stars out of 5') %>
+  </li>
+  <li>
+    <%= link_to("5", {:url => { :controller => "ratings",
+                                       :action => "rate", :id => Audio.first.id, :rating1 => 5}}, :remote => true,
+                       :class => 'five-stars', :name => '1 stars out of 5') %>
+  </li>
+
+</ul>
