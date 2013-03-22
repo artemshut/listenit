@@ -9,5 +9,3 @@
 //= require twitter/bootstrap
 //= require_tree .
 //= require select2
-//= require multiuploader
-//= require easyuploader

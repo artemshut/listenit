@@ -2,115 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b641f662-d097-493f-ba0e-fee824166b0d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/037/original/The_XX_–_Intro.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/051/original/Tricky_–_Bombing_Bastards.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/029/original/Tricky_–_Evolution_Revolution_Love.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/059/original/Tricky_–_Overcome.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/061/original/Tricky_–_Past_Mistake.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1c.fdx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1c.fnm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1c.nrm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1c.tii" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1c.tis" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1c_6.del" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1d.fnm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1d.nrm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1d.tii" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1d.tis" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1e.fnm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1e.nrm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1e.tii" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1e.tis" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1f.fnm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1f.nrm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1f.tii" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1f.tis" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1g.fnm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1g.nrm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1g.tii" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1g.tis" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-3ed551b77551b5feb7ba2f703898a4b9.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/audiojs-4f4d281512a2b356b8a98ddaf0e4bfab.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/070/original/ayo_technology.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/028/original/bitch.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/068/original/bitch.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/074/original/bleeding_love.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/072/original/born_this_way.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/073/original/california_girls.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/075/original/hot-n-cold.mp3.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/069/original/paparazzi.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/player-graphics-87bc2eca3137ee42171127c9c1b6e29f.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/076/original/poker_face.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/077/original/poker_face.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/segments.gen" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/spellchecker/segments.gen" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/production/user/segments_0" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/spellchecker/segments_1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/segments_22" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2-dd52d2a9fb1c9fa4a36a773d90c1a549.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2-spinner-efec87a6e4d665ab02c27f9049095490.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/select2x2-3433af868bf93f068bda1dbe96a5c9de.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/sunspot-solr-development.log.lck" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/071/original/tiktok.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130316152812_add_locale_to_users.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130317135956_add_description_to_audios.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130317140431_add_useri_to_audios.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130319102536_add_metadata_to_audios.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130319201842_add_playlist_to_users.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1c.fdt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1c.frq" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1c.prx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1d.fdt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1d.fdx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1d.frq" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1d.prx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1e.fdt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1e.fdx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1e.frq" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1e.prx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1f.fdt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1f.fdx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1f.frq" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1f.prx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1g.fdt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1g.fdx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1g.frq" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_1g.prx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/audios/_player.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/_user_page.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/admin-extra.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-3ed551b77551b5feb7ba2f703898a4b9.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/compass.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/elevate.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/locales/en.bootstrap.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/mapping-ISOLatin1Accent.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/protwords.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/schema.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/scripts.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/production/user/segments" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/solrconfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/spellings.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/stopwords.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/styles_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/pids/development/sunspot-solr-development.pid" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/sunspot.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/conf/synonyms.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/tag.rb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap-responsive.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/Light.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/Dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/development/user/segments" afterPath="$PROJECT_DIR$/index/development/user/segments" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/fileuploader.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/fileuploader.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/users_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/users_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="listenit.iws" />
@@ -121,9 +17,9 @@
     <file path="/devise.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363348627385" ignored="false" />
     <file path="/routes.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363910288574" ignored="false" />
     <file path="/bootstrap.css" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363913178841" ignored="false" />
-    <file path="/application.html.erb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363961929060" ignored="false" />
+    <file path="/application.html.erb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363962736588" ignored="false" />
     <file path="/sessions_controller.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1362355070336" ignored="false" />
-    <file path="/index.html.erb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363961783991" ignored="false" />
+    <file path="/index.html.erb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363962056972" ignored="false" />
     <file path="/20130303224117_devise_create_users.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363345608661" ignored="false" />
     <file path="/new.html.erb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363955795406" ignored="false" />
     <file path="/user.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363958968824" ignored="false" />
@@ -202,62 +98,17 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="679" selection-end="679" vertical-scroll-proportion="-12.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/styles_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="31" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Light.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/Light.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2338" column="30" selection-start="44041" selection-end="44041" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dark.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/Dark.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="53" selection-start="1967" selection-end="1967" vertical-scroll-proportion="0.7344633">
+            <state line="20" column="41" selection-start="837" selection-end="837" vertical-scroll-proportion="0.28248587">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.erb">
+      <file leaf-file-name="_styles.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/_styles.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
@@ -268,7 +119,52 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="2" selection-start="86" selection-end="86" vertical-scroll-proportion="-1.25">
+            <state line="2" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="-1.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_user_page.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/_user_page.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fileuploader.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/fileuploader.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="91" column="1" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fileuploader.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/fileuploader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="268" column="3" selection-start="7428" selection-end="7428" vertical-scroll-proportion="-12.28">
               <folding />
             </state>
           </provider>
@@ -286,7 +182,7 @@
       <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="24" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
+            <state line="11" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -312,8 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/audios/_player.html.erb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130322102954_style_add_to_users.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130322103543_create_styles.rb" />
         <option value="$PROJECT_DIR$/app/models/styles.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
@@ -325,7 +219,9 @@
         <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/styles_helper.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/fileuploader.css" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/fileuploader.js" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
@@ -1179,48 +1075,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/audios_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="5" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/audio.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/users_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/styles.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1270,25 +1124,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/fileuploader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="1" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/_styles.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="24" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
+        <state line="11" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/fileuploader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="268" column="3" selection-start="7428" selection-end="7428" vertical-scroll-proportion="-12.28">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/_user_page.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="86" selection-end="86" vertical-scroll-proportion="-1.25">
+        <state line="2" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="-1.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="53" selection-start="1967" selection-end="1967" vertical-scroll-proportion="0.7344633">
+        <state line="20" column="41" selection-start="837" selection-end="837" vertical-scroll-proportion="0.28248587">
           <folding />
         </state>
       </provider>
