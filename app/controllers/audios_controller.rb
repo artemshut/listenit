@@ -30,12 +30,20 @@ class AudiosController < ApplicationController
   # GET /audios/1.json
   def show
     @audio = Audio.find(params[:id])
-
-    respond_to do |format|
-      format.html # show.html.erb
-      format.json { render json: @audio }
+      respond_to do |format|
+        format.json {render :json => resource }
+        format.html {render :action => :show}
+        format.any {
+          path = resource.file.path(params[:style] || params[:format])
+          head(:not_found) and return unless File.exist?(path)
+          send_file path,
+                    :filename => resource.file_file_name,
+                    :disposition => "inline",
+                    :type => request.format
+        }
+      end
     end
-  end
+
 
   # GET /audios/new
   # GET /audios/new.json

@@ -23,7 +23,7 @@ class Audio < ActiveRecord::Base
 
 
 
-
+  acts_as_rateable
   acts_as_taggable
   belongs_to :user
   searchable do

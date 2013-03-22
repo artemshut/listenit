@@ -1,19 +1,19 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=0.6" name="viewport">
-
+  <% a = Audio.first %>
   <%= stylesheet_link_tag "player", :media => "all" %>
 </head>
-<h1><%= @title %></h1>
+
 <body>
 <div id="wrapper">
   <h1>wait what — notorious xx <em>(2009)</em></h1>
   <audio preload></audio>
   <div class="track-details">
-    Juicy-r <em>by</em> Wait What
+   <%= Audio.first.metadata['artist'] %> <em>by</em> Wait What
   </div>
   <ol>
-    <li><a href="#" data-src="/public/Tricky_–_Bombing_Bastards.mp3">dead wrong intro</a></li>
+    <li><a href="#" data-src=<%= a.audio.url %>><%= a.display_name %></a></li>
     <li><a href="#" data-src="http://s3.amazonaws.com/audiojs/02-juicy-r.mp3">juicy-r</a></li>
     <li><a href="#" data-src="http://s3.amazonaws.com/audiojs/03-its-all-about-the-crystalizabeths.mp3">it's all about the crystalizabeths</a></li>
     <li><a href="#" data-src="http://s3.amazonaws.com/audiojs/04-islands-is-the-limit.mp3">islands is the limit</a></li>

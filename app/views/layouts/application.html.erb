@@ -15,10 +15,10 @@
     <link href="http://feeds.feedburner.com/bootswatch" rel="alternate" type="application/rss+xml" title="Bootswatch">
     <%= stylesheet_link_tag "player", :media => "all" %>
 
-    <%=  add_style_id %>
+    <%  add_style_id %>
     <%=  change_stylesheet %>
     <%= stylesheet_link_tag "audios", :media => "all" %>
-    <%= stylesheet_link_tag "fileuploader", :media => "all" %>
+
 
 
 
@@ -78,21 +78,17 @@
         </div>
       </div>
     </div>
-    <div id="file-uploader">
-      <noscript>
-        <p>Please enable JavaScript to use file uploader.</p>
-        <!-- or put a simple form for upload here -->
-      </noscript>
-    </div>
 
     <div class="container">
         <div class="row">
           <div class="span9">
             <%= bootstrap_flash %>
             <%= yield %>
+
           </div>
 
               <div class="span3">
+
             <div class="well sidebar-nav">
               <div id="myCanvasContainer">
 
@@ -107,9 +103,14 @@
 
 
                   </ul>
+
                 </canvas>
+
               </div>
+
             </div><!--/.well -->
+                <%= render 'layouts/player' %>
+
           </div><!--/span-->
         </div><!--/row-->
 

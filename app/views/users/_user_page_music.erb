@@ -1,0 +1,39 @@
+<section id="tables">
+
+
+  <table  class="table table-bordered table-striped table-hover">
+    <thead>
+    <tr>
+      <th>Song name</th>
+      <th>Tags</th>
+      <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    <% Audio.all.each do |audio| %>
+
+        <tr>
+          <td>
+
+            <%= audio.display_name %>
+
+
+          <td> <%= raw audio.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %></td>
+
+
+
+          <td><%= audio.description %></td>
+
+          </td>
+          <!--<td><%= link_to 'Show', audio %></td>
+                <td><%= link_to 'Edit', edit_audio_path(audio) %></td>
+                <td><%= link_to 'Destroy', audio, method: :delete, data: { confirm: 'Are you sure?' } %></td>-->
+
+        </tr>
+    <% end %>
+
+    </table>
+  <%= link_to 'New Audio', new_audio_path %>
+
+
+</section>
