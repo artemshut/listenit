@@ -44,7 +44,7 @@
               <li>
                 <%= form_tag audios_path, :method => :get do %>
                 <%= text_field_tag :search, params[:search] %>
-                <%= submit_tag "Search", :name => nil %>
+                <%= submit_tag "Search", :class => "btn"%>
                 <% end %>
               </li>
               <li class="dropdown" id="preview-menu">
@@ -77,7 +77,7 @@
               <div id="myCanvasContainer">
 
                 <canvas width="190" height="240" id="myCanvas">
-                  <p>Anything in here will be replaced on browsers that support the canvas element</p>
+
                   <ul>
 
                       <% tag_cloud Audio.tag_counts, %w{s m l} do |tag, css_class| %>

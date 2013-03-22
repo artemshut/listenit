@@ -349,7 +349,7 @@ a:focus {
 }
 
 .span4 {
-    width: 300px;
+    width: 600px;
 }
 
 .span3 {
@@ -1084,6 +1084,7 @@ textarea {
     font-size: 14px;
     font-weight: normal;
     line-height: 20px;
+
 }
 
 input,

@@ -1,7 +1,5 @@
 class AudiosController < ApplicationController
 
-  caches_page :index
-
   def index
       @title = t(:music_list)
 
@@ -18,7 +16,6 @@ class AudiosController < ApplicationController
 
   end
 
-
   def audio_download
     @music = Audio.find(params[:id])
     file_path = @audio.audio_file_name
@@ -33,6 +30,7 @@ class AudiosController < ApplicationController
   # GET /audios/1.json
   def show
     @audio = Audio.find(params[:id])
+
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @audio }
@@ -59,7 +57,6 @@ class AudiosController < ApplicationController
   # POST /audios
   # POST /audios.json
   def create
-    expire_page :action => :index
     @audio = Audio.new(params[:audio])
     @audio.userid = current_user.id
     respond_to do |format|
@@ -70,6 +67,7 @@ class AudiosController < ApplicationController
         format.html { render action: "new" }
         format.json { render json: @audio.errors, status: :unprocessable_entity }
       end
+
     end
   end
 
@@ -95,9 +93,8 @@ class AudiosController < ApplicationController
   def destroy
     @audio = Audio.find(params[:id])
     @audio.destroy
-
     respond_to do |format|
-      flash[:success] = "Audio deleted"
+      flash[:success] = t(:audio_deleted)
       format.html { redirect_to  "/users/#{current_user.id}" }
       format.json { head :no_content }
     end

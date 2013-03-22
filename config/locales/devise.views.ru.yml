@@ -1,6 +1,6 @@
 ru:
   sign_in: "Войти"
-  sign_up: "Зарегистрироваться"
+  sign_up: "Регистрация"
   language: "Язык"
   admin: "Админ?"
   users_list: "Список пользователей"
@@ -19,6 +19,7 @@ ru:
   new_audio: "Новая запись"
   delete: "Удалить"
   audio_confirm: 'Трек успешно добавлен'
+  audio_deleted: 'Трек успешно удален'
   devise:
     confirmations:
       confirmed: Ваша учётная запись подтверждена. Теперь вы вошли в систему.

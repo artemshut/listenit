@@ -20,6 +20,7 @@ en:
   new_audio: "New audio"
   delete: "Delete"
   audio_confirm: 'Audio was successfully created.'
+  audio_deleted: 'Audio has been deleted'
   devise:
     confirmations:
       confirmed: "Your account was successfully confirmed. You are now signed in."
