@@ -1,6 +1,7 @@
+
 <%= link_to 'New Audio', new_audio_path %>
 <section id="tables">
-  <table  class="table table-bordered table-striped table-hover">
+  <table  class="table table-bordered table-striped table-hover paginated">
     <thead>
     <tr>
       <th>Song name</th>
@@ -8,8 +9,9 @@
 
     </tr>
     </thead>
-    <tbody>
-    <% Audio.all.each do |audio| %>
+
+       <% Audio.all.each do |audio| %>
+
         <tr>
         <td> <%= link_to image_tag('Download_icon_images.jpg')%>
              <%= link_to image_tag('add_7580.png')%>

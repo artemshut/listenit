@@ -12,15 +12,16 @@
   <audio preload></audio>
 
   <ol>
-    <% Audio.all.each do |audio| %>
-        <div class="track-details">
+    <% Audio.all.each do |audio|  %>
+       <!-- <div class="track-details">
           <%= audio.metadata['title'] %> <em>by</em> <%=  audio.metadata['artist']%>
-        </div>
+        </div>-->
     <li><a href="#" data-src=<%= audio.audio.url %>><%= audio.display_name %></a></li>
   <% end %>
 
   </ol>
 
 </div>
+
 
 </body>

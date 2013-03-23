@@ -2,14 +2,18 @@ class AudiosController < ApplicationController
 
   def index
       @title = t(:music_list)
+
     if params[:tag]
       @audios = Audio.tagged_with(params[:tag])
+
     else
       @audios = Audio.all
       @search = Audio.search do
         fulltext params[:search]
+
       end
-      @audios = @search.results
+
+    @audios = @search.results
 
     end
 
@@ -26,6 +30,7 @@ class AudiosController < ApplicationController
       redirect_to audio_url
     end
   end
+
 
   # GET /audios/1
   # GET /audios/1.json

@@ -1,6 +1,6 @@
 class Audio < ActiveRecord::Base
   attr_accessible :audio, :description, :content, :tag_list, :audio_file_name
-
+  has_many :tags
   belongs_to :user
   attr_writer :tag_list
   before_save :extract_metadata
@@ -29,6 +29,8 @@ class Audio < ActiveRecord::Base
   searchable do
     text :audio, :description, :tag_list, :audio_file_name
   end
+
+
 
   def display_name
     @display_name ||= if audio? && metadata?
