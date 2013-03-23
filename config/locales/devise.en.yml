@@ -23,6 +23,9 @@ en:
   audio_deleted: 'Audio has been deleted'
   style: "Style"
   search: "Search"
+  my_page: "My page"
+  download: "Download file"
+  profile: "Profile"
   devise:
     confirmations:
       confirmed: "Your account was successfully confirmed. You are now signed in."

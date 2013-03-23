@@ -1,6 +1,7 @@
 class Audio < ActiveRecord::Base
   attr_accessible :audio, :description, :content, :tag_list, :audio_file_name
-  #acts_as_rateable
+
+  belongs_to :user
   attr_writer :tag_list
   before_save :extract_metadata
   serialize :metadata
@@ -8,7 +9,7 @@ class Audio < ActiveRecord::Base
   validates_attachment_presence :audio
   validates :tag_list, :length => {:maximum => 8}
   validates_attachment_content_type :audio, :content_type => [ 'audio/mp3','audio/mpeg']
-#  ajaxful_rateable :stars => 5, :dimensions => [:speed, :beauty, :price]
+
 
   def tag_list
     @tag_list || tags.map(&:name).join(", ")
@@ -22,11 +23,9 @@ class Audio < ActiveRecord::Base
     end
   end
 
-
-
-
   acts_as_taggable
-  belongs_to :user
+  #acts_as_rateable
+
   searchable do
     text :audio, :description, :tag_list, :audio_file_name
   end

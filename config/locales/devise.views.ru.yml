@@ -22,6 +22,9 @@ ru:
   audio_deleted: 'Трек успешно удален'
   style: "Стиль"
   search: "Поиск"
+  my_page: "Мой профиль"
+  download: "Скачать файл"
+  profile: "Профиль"
   devise:
     confirmations:
       confirmed: Ваша учётная запись подтверждена. Теперь вы вошли в систему.

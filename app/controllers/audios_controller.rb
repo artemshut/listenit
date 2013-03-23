@@ -15,13 +15,15 @@ class AudiosController < ApplicationController
 
   end
 
-  def audio_download
+  def download
     @audio = Audio.find(params[:id])
+    a = Audio.first
     file_path = @audio.audio_file_name
     if !file_path.nil?
-      redirect_to audio_url
+
+      send_file "#{Rails.root}/public/audios/audios/000/000/082/original/#{a.audio_file_name}", :x_sendfile => true
     else
-      send_file "#{Rails.root}/public/system/audios", :x_sendfile => true
+      redirect_to audio_url
     end
   end
 
@@ -65,7 +67,7 @@ class AudiosController < ApplicationController
   # POST /audios.json
   def create
     @audio = Audio.new(params[:audio])
-    @audio.userid = current_user.id
+    @audio.user_id = current_user.id
     respond_to do |format|
       if @audio.save
         format.html { redirect_to @audio, notice: t(:audio_confirm) }

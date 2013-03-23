@@ -17,7 +17,11 @@ Listenit::Application.routes.draw do
   match '/users/:id', :to => 'users#show',    :as => :user,         :via => :get
   match '/users/:id', :to => 'users#destroy', :as => :destroy_user, :via => :delete
   get 'tags/:tag', to: 'audios#index', as: :tag
+  resources :audios do
 
+    member do
+      get :download
+ end     end
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

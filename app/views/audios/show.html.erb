@@ -1,6 +1,7 @@
 <p>
   <%= @audio.display_name %>
-  <a href="/audios/<%=@audio.id%>" style="text-decoration:none"><%= @audio.display_name %></a>
+  <%= link_to "Download", download_audio_path(@audio.id) %>
+
 </p>
 
 
