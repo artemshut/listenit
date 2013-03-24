@@ -21,10 +21,6 @@ module UsersHelper
       s += link_to(t(:admin) , new_admin_session_path)
     end
   end
-
-
-
-
 end
 
 

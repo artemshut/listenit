@@ -5,16 +5,13 @@
       <th>Song name</th>
       <th>Tags</th>
       <th>Tools</th>
-
     </tr>
     </thead>
     <tbody>
-
-
     <% current_user.audios.each do |audio| %>
-
         <tr>
-          <td> <%= link_to image_tag('Download_icon_images.jpg')%>
+          <td>
+            <%= link_to image_tag('Download_icon_images.jpg')%>
             <%= link_to image_tag('add_7580.png')%>
             <%= audio.display_name %>
             <div class="bubbleInfo">
@@ -29,14 +26,10 @@
             </div>
           </td>
           <td><%= raw audio.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %></td>
-
-
           <td><%= link_to 'Show', audio %>
                 <%= link_to 'Edit', edit_audio_path(audio) %>
                 <%= link_to 'Destroy', audio, method: :delete, data: { confirm: 'Are you sure?' } %></td>
         </tr>
     <% end %>
-
     </table>
-
  </section>

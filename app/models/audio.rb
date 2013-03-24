@@ -1,16 +1,16 @@
 class Audio < ActiveRecord::Base
-  attr_accessible :audio, :description, :content, :tag_list, :audio_file_name
+
   has_many :tags
   belongs_to :user
   attr_accessor :tag_list
-
+  attr_accessible :audio, :description, :content, :tag_list, :audio_file_name
   before_save :extract_metadata
   serialize :metadata
   has_attached_file :audio
   validates_attachment_presence :audio
   validates :tag_list, :length => {:maximum => 8}
   validates_attachment_content_type :audio, :content_type => [ 'audio/mp3','audio/mpeg']
-
+  has_reputation :votes, source: :user, aggregated_by: :sum
 
   def tag_list
     @tag_list || tags.map(&:name).join(", ")
@@ -29,7 +29,7 @@ class Audio < ActiveRecord::Base
   end
 
   acts_as_taggable
-  #acts_as_rateable
+#  acts_as_rateable
 
   searchable do
     text :audio, :description, :tag_list, :audio_file_name

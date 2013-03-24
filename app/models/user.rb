@@ -11,4 +11,12 @@ class User < ActiveRecord::Base
 
   belongs_to :styles
 
+  has_reputation :votes, source: {reputation: :votes, of: :audios}, aggregated_by: :sum
+
+  has_many :evaluations, class_name: ReputationSystem::Evaluation, as: :source
+
+  def voted_for?(audio)
+    evaluations.where(target_type: audio.class, target_id: audio.id).present?
+  end
+
 end

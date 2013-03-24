@@ -10,9 +10,9 @@ module StylesHelper
 
   def change_stylesheet
     if user_signed_in? && current_user.style_id == Styles.first.id
-      stylesheet_link_tag 'Light', :media => "all"
-    elsif user_signed_in? && current_user.style_id != Styles.first.id
       stylesheet_link_tag 'Dark', :media => "all"
+    elsif user_signed_in? && current_user.style_id != Styles.first.id
+      stylesheet_link_tag 'Light', :media => "all"
     else
       @default_style = stylesheet_link_tag 'Dark', :media => "all"
     end
@@ -20,18 +20,16 @@ module StylesHelper
 
   def add_style_id_light
     if user_signed_in?
-      current_user.style_id = Styles.last.id
+      current_user.send(:update, [current_user.style_id = input_stylesheet_id[0]])
 
-      current_user.save
     else
     end
   end
 
   def add_style_id_dark
    if user_signed_in?
-        current_user.style_id = Styles.first.id
+     current_user.send(:update, [current_user.style_id = input_stylesheet_id[1]])
 
-      current_user.save
    else
    end
     end

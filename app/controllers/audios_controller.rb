@@ -10,11 +10,17 @@ class AudiosController < ApplicationController
         fulltext params[:search]
       end
       @audios = @search.results
-
+      @audios = Audio.find_with_reputation(:votes, :all, order: 'votes desc')
     end
   end
 
 
+  def vote
+    value = params[:type] == "up" ? 1 : -1
+    @audio = Audio.find(params[:id])
+    @audio.add_evaluation(:votes, value, current_user)
+    redirect_to :back, notice: "Thank you for voting!"
+  end
 
   def download
     @audio = Audio.find(params[:id])

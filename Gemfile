@@ -17,6 +17,8 @@ gem 'progress_bar'
 gem 'select2-rails'
 gem 'acts_as_rateable'
 gem 'jquery-fileupload-rails'
+gem 'acts_as_votable'
+gem 'activerecord-reputation-system', require: 'reputation_system'
 
 
 
@@ -32,7 +34,7 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
   gem 'bootswatch-rails'
   gem 'therubyracer'
-  gem 'bootstrap-sass', :github => "trisweb/bootstrap-sass"
+  gem 'bootstrap-sass'
   gem 'less-rails'
   gem 'less-rails-bootstrap'
   gem 'compass_twitter_bootstrap'

@@ -147,3 +147,13 @@ $('table.paginated').each(function() {
 $(function () {
     $('#audio_tag_tokens').tokenInput('/tags.json', { crossDomain: false });
 });
+
+
+
+$('#grayscale').click(function (){
+    $('link[href="assets/Light.css"]').attr('href','assets/Dark.css');
+});
+$('#original').click(function (){
+    $('link[href="assets/Dark.css"]').attr('href','assets/Light.css');
+});
+

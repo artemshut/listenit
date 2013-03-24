@@ -8,6 +8,7 @@ Listenit::Application.routes.draw do
 
   devise_for :admins
   devise_for :users
+
   root :to => "home#index"
 
   match '/signout', :to => 'sessions#destroy'
@@ -19,6 +20,7 @@ Listenit::Application.routes.draw do
   resources :tags
   get 'tags/:tag', to: 'audios#index', as: :tag
   resources :audios do
+    member { post :vote }
     member do
       get :download
     end

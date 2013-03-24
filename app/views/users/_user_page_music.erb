@@ -1,4 +1,3 @@
-
 <%= link_to 'New Audio', new_audio_path %>
 <section id="tables">
   <table  class="table table-bordered table-striped table-hover paginated">
@@ -6,12 +5,9 @@
     <tr>
       <th>Song name</th>
       <th>Tags</th>
-
     </tr>
     </thead>
-
        <% Audio.all.each do |audio| %>
-
         <tr>
         <td> <%= link_to image_tag('Download_icon_images.jpg')%>
              <%= link_to image_tag('add_7580.png')%>
@@ -24,22 +20,22 @@
               <td>Album: <%= audio.metadata['album'] %> </td>
               <td>Year: <%= audio.metadata['year'] %> </td>
               <td><%= audio.description %></td>
+              <div class="haiku">
+
+                <em>
+                  --<%= audio.user.name %>
+                  | <%= pluralize audio.reputation_for(:votes).to_i, "vote" %>
+                  <% if current_user && !current_user.voted_for?(audio) %>
+                      | <%= link_to "up", vote_audio_path(audio, type: "up"), method: "post" %>
+                      | <%= link_to "down", vote_audio_path(audio, type: "down"), method: "post" %>
+                  <% end %>
+                </em>
+              </div>
             </table>
           </div>
         </td>
         <td><%= raw audio.tag_list.map { |t| link_to t, tag_path(t) }.join(', ') %></td>
-
-
-
-
-          <!--<td><%= link_to 'Show', audio %></td>
-                <td><%= link_to 'Edit', edit_audio_path(audio) %></td>
-                <td><%= link_to 'Destroy', audio, method: :delete, data: { confirm: 'Are you sure?' } %></td>-->
         </tr>
     <% end %>
-
     </table>
-
-
-
 </section>

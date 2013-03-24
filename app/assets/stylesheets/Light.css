@@ -20,6 +20,7 @@ div.pager {
     margin: 1em 0;
 }
 
+
 div.pager span {
     display: inline-block;
     width: 1.8em;
@@ -56,7 +57,7 @@ div.pager span.active {
 .star-rating a:active,
 .star-rating a:focus,
 .star-rating .current-rating{
-    background: url(/images/star.gif) left -1000px repeat-x;
+    background: url(stars.gif) left -1000px repeat-x;
 }
 .star-rating{
     position:relative;
@@ -112,6 +113,7 @@ div.pager span.active {
     z-index:1;
     background-position: left center;
 }
+
 .round {
 
     -moz-border-radius:    10px;

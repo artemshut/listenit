@@ -59,7 +59,7 @@ html, body {
 .star-rating a:active,
 .star-rating a:focus,
 .star-rating .current-rating{
-    background: url(/images/star.gif) left -1000px repeat-x;
+    background: url(star.gif) left -1000px repeat-x;
 }
 .star-rating{
     position:relative;
@@ -3112,6 +3112,7 @@ table th[class*="span"],
 .dropdown-menu > .disabled > a:focus {
     color: #aaaaaa;
 }
+
 
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
