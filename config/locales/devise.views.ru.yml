@@ -25,6 +25,8 @@ ru:
   my_page: "Мой профиль"
   download: "Скачать файл"
   profile: "Профиль"
+  user_destroy: "Пользователь удален"
+  account: "Аккаунт"
   devise:
     confirmations:
       confirmed: Ваша учётная запись подтверждена. Теперь вы вошли в систему.

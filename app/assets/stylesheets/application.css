@@ -4,6 +4,8 @@
     left: 100px;
     width: 500px;
 }
+
+
 .trigger {
     position: absolute;
 }
@@ -56,5 +58,5 @@
 }
 
 .popup td#bottomright {
-    background-image: url(files/bubble-8.png);
+    background-image: url(bubble-8.png);
 }

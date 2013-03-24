@@ -1,1 +1,5 @@
+<% if user_signed_in? %>
+    <%= render 'users/user_page' %>
+    <% else %>
 <%= link_to t(:sign_up), '/users/sign_up'  , :class => "signup_button round" %>
+<% end %>

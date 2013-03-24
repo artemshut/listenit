@@ -143,3 +143,7 @@ $('table.paginated').each(function() {
     }
     $pager.insertAfter($table).find('span.page-number:first').addClass('active');
 });
+
+$(function () {
+    $('#audio_tag_tokens').tokenInput('/tags.json', { crossDomain: false });
+});

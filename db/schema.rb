@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130323011030) do
+ActiveRecord::Schema.define(:version => 20130323194817) do
 
   create_table "admins", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
@@ -43,6 +43,7 @@ ActiveRecord::Schema.define(:version => 20130323011030) do
     t.string   "description"
     t.integer  "userid"
     t.string   "metadata"
+    t.integer  "playlist"
   end
 
   create_table "musics", :force => true do |t|

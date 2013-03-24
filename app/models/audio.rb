@@ -2,7 +2,8 @@ class Audio < ActiveRecord::Base
   attr_accessible :audio, :description, :content, :tag_list, :audio_file_name
   has_many :tags
   belongs_to :user
-  attr_writer :tag_list
+  attr_accessor :tag_list
+
   before_save :extract_metadata
   serialize :metadata
   has_attached_file :audio
@@ -21,6 +22,10 @@ class Audio < ActiveRecord::Base
         Tag.where(:name => name).first || Tag.create(:name => name)
       end
     end
+  end
+
+  def author_tokens=(ids)
+    self.tag_ids = ids.split(",")
   end
 
   acts_as_taggable

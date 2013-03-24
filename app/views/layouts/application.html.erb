@@ -5,11 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= content_for?(:title) ? yield(:title) : "Listenit" %></title>
-    <a href="http://github.com/artemshut/listenit"><img style="position: absolute; top: 50px; left: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+    <!--<a href="http://github.com/artemshut/listenit"><img style="position: absolute; top: 50px; left: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png" alt="Fork me on GitHub" /></a>-->
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js" type="text/javascript"></script>
     <![endif]-->
     <%= stylesheet_link_tag "player", :media => "all" %>
-    <%  add_style_id %>
     <%= change_stylesheet %>
     <%= stylesheet_link_tag "audios", :media => "all" %>
   </head>
@@ -34,14 +33,14 @@
               <li class="dropdown" id="preview-menu">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#"><%= t(:style) %><b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><%= link_to input_stylesheet[1] %></li>
-                  <li><%= link_to input_stylesheet[0] %></li>
+                  <li><%= link_to input_stylesheet_name[0], root_path, :action => add_style_id_dark %></li>
+                  <li><%= link_to input_stylesheet_name[1], root_path, :action => add_style_id_light%></li>
                   <li><input type="hidden"></li>
                 </ul>
               </li>
               <li>
                 <li class="dropdown" id="preview-menu">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Account<b class="caret"></b></a>
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><%= t(:account) %><b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><%= my_page_link %>  </li>
                   <li class="divider"></li>
@@ -85,6 +84,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <%= javascript_include_tag "application" %> <%= csrf_meta_tags %>
+
 
   </body>
 </html>

@@ -26,6 +26,8 @@ en:
   my_page: "My page"
   download: "Download file"
   profile: "Profile"
+  user_destroy: "User destroyed"
+  account: "Account"
   devise:
     confirmations:
       confirmed: "Your account was successfully confirmed. You are now signed in."
