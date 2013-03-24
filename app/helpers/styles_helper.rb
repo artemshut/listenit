@@ -20,7 +20,7 @@ module StylesHelper
 
   def add_style_id_light
     if user_signed_in?
-      current_user.style_id = 4
+      current_user.style_id = Styles.last.id
 
       current_user.save
     else
@@ -29,7 +29,7 @@ module StylesHelper
 
   def add_style_id_dark
    if user_signed_in?
-        current_user.style_id = 4
+        current_user.style_id = Styles.first.id
 
       current_user.save
    else
