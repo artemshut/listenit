@@ -7,7 +7,7 @@
 <div id="wrapper">
   <audio preload></audio>
   <ol>
-    <% Audio.all.each do |audio|  %>
+    <% Audio.limit(10).each do |audio|  %>
        <!-- <div class="track-details">
           <%= audio.metadata['title'] %> <em>by</em> <%=  audio.metadata['artist']%>
         </div>-->

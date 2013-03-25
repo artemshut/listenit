@@ -29,6 +29,11 @@ en:
   user_destroy: "User destroyed"
   account: "Account"
   vote_thanks: "Thank you for voting!"
+  all_music: "All music"
+  my_tracks: "My tracks"
+  song_name: "Song name"
+  tags: "Tags"
+  my_playlist: "My playlist"
   devise:
     confirmations:
       confirmed: "Your account was successfully confirmed. You are now signed in."

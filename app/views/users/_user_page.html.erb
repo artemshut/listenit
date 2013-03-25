@@ -3,20 +3,17 @@
 
     <h3 id="tabs"><%= current_user.name %>'s <%= t(:profile) %></h3>
     <ul class="nav nav-tabs">
-      <li class="active"><a href="#A" data-toggle="tab">All music</a></li>
-      <li><a href="#B" data-toggle="tab">Search results</a></li>
-      <li><a href="#C" data-toggle="tab">My playlist</a></li>
-      <li><a href="#D" data-toggle="tab">My tracks</a></li>
+      <li class="active"><a href="#A" data-toggle="tab"><%= t(:all_music) %></a></li>
+      <li><a href="#C" data-toggle="tab"><%= t(:my_playlist) %></a></li>
+      <li><a href="#D" data-toggle="tab"><%= t(:my_tracks) %></a></li>
     </ul>
     <div class="tabbable">
       <div class="tab-content">
         <div class="tab-pane active" id="A">
-          <%= render 'users/user_page_music' %>
+          <%= render 'users/all_music' %>
           </div>
-        <div class="tab-pane" id="B">
-          <%= render 'audios/search_res' %>
-        </div>
         <div class="tab-pane" id="C">
+          <%= render 'users/playlist' %>
         </div>
         <div class="tab-pane" id="D">
          <%= render 'users/users_own_tracks' %>

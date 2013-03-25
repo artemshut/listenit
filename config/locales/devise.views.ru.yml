@@ -28,6 +28,11 @@ ru:
   user_destroy: "Пользователь удален"
   account: "Аккаунт"
   vote_thanks: "Спасибо за Ваш голос!"
+  all_music: "Вся музыка"
+  my_tracks: "Мои записи"
+  song_name: "Название"
+  tags: "Тэги"
+  my_playlist: "Мой плейлист"
   devise:
     confirmations:
       confirmed: Ваша учётная запись подтверждена. Теперь вы вошли в систему.

@@ -6,9 +6,7 @@ class User < ActiveRecord::Base
 
   attr_accessible :name , :email, :password, :password_confirmation, :remember_me, :confirmed_at, :admin,
                   :confirmation_token, :locale, :style_id
-
   has_many :audios
-
   belongs_to :styles
 
   has_reputation :votes, source: {reputation: :votes, of: :audios}, aggregated_by: :sum

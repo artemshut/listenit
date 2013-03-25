@@ -20,7 +20,8 @@ gem 'jquery-fileupload-rails'
 gem 'acts_as_votable'
 gem 'activerecord-reputation-system', require: 'reputation_system'
 gem 'jquery-ui-rails'
-
+gem 'gruff'
+gem 'rmagick'
 
 
 group :development do

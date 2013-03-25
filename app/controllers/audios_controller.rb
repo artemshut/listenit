@@ -28,7 +28,7 @@ class AudiosController < ApplicationController
     file_path = @audio.audio_file_name
     if !file_path.nil?
 
-      send_file "#{Rails.root}/public/audios/audios/000/000/082/original/#{a.audio_file_name}", :x_sendfile => true
+      send_file "/public/audios/audios/000/000/082/original/#{a.audio_file_name}", :x_sendfile => true
     else
       redirect_to audio_url
     end
@@ -50,8 +50,7 @@ class AudiosController < ApplicationController
                     :type => request.format
         }
       end
-    end
-
+  end
 
   # GET /audios/new
   # GET /audios/new.json
