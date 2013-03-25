@@ -19,6 +19,7 @@ gem 'acts_as_rateable'
 gem 'jquery-fileupload-rails'
 gem 'acts_as_votable'
 gem 'activerecord-reputation-system', require: 'reputation_system'
+gem 'jquery-ui-rails'
 
 
 

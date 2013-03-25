@@ -24,7 +24,8 @@
 
                 <em>
                   --<%= audio.user.name %>
-                  | <%= pluralize audio.reputation_for(:votes).to_i, "vote" %>
+                    |<%= pluralize audio.reputation_for(:votes).to_i, "vote" %>
+
                   <% if current_user && !current_user.voted_for?(audio) %>
                       | <%= link_to "up", vote_audio_path(audio, type: "up"), method: "post" %>
                       | <%= link_to "down", vote_audio_path(audio, type: "down"), method: "post" %>

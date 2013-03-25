@@ -148,12 +148,18 @@ $(function () {
     $('#audio_tag_tokens').tokenInput('/tags.json', { crossDomain: false });
 });
 
-
-
-$('#grayscale').click(function (){
-    $('link[href="assets/Light.css"]').attr('href','assets/Dark.css');
+submit_tags = function() {
+    $(this).parents("form").submit();
+}
+$(function() {
+    //adding tokeninput functionality
+    $('user_tags_field_name').tagsInput({
+        autocomplete_url: '/tags',
+        'interactive': true,
+        'onChange': submit_tags
+    });
 });
-$('#original').click(function (){
-    $('link[href="assets/Dark.css"]').attr('href','assets/Light.css');
-});
 
+$('#tags').tagsInput({
+    autocomplete_url:'http://myserver.com/api/autocomplete'
+});

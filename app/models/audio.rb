@@ -3,7 +3,7 @@ class Audio < ActiveRecord::Base
   has_many :tags
   belongs_to :user
   attr_accessor :tag_list
-  attr_accessible :audio, :description, :content, :tag_list, :audio_file_name
+  attr_accessible :audio, :description, :content, :tag_list, :audio_file_name, :user_id, :file
   before_save :extract_metadata
   serialize :metadata
   has_attached_file :audio
@@ -11,6 +11,7 @@ class Audio < ActiveRecord::Base
   validates :tag_list, :length => {:maximum => 8}
   validates_attachment_content_type :audio, :content_type => [ 'audio/mp3','audio/mpeg']
   has_reputation :votes, source: :user, aggregated_by: :sum
+
 
   def tag_list
     @tag_list || tags.map(&:name).join(", ")
@@ -29,7 +30,7 @@ class Audio < ActiveRecord::Base
   end
 
   acts_as_taggable
-#  acts_as_rateable
+
 
   searchable do
     text :audio, :description, :tag_list, :audio_file_name
@@ -55,6 +56,18 @@ class Audio < ActiveRecord::Base
     Mp3Info.open(path, open_opts) do |mp3info|
       self.metadata = mp3info.tag
     end
+  end
+
+  def to_jquery_upload
+    {
+        "name" => display_name,
+        "title" => display_name.title,
+        "size" => audio_file_size,
+        "url" => audios_path(self),
+        "delete_url" => audios_path(self),
+        "delete_type" => "DELETE" ,
+        "edit_url" => polymorphic_path(self)
+    }
   end
 
 
