@@ -33,6 +33,8 @@ ru:
   song_name: "Название"
   tags: "Тэги"
   my_playlist: "Мой плейлист"
+  editing: "Редактирование"
+  cancel_account: "Удалить мой аккаунт"
   devise:
     confirmations:
       confirmed: Ваша учётная запись подтверждена. Теперь вы вошли в систему.

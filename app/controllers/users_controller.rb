@@ -4,7 +4,6 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
   end
   def index
-    @title = "All users"
     @users = User.all
   end
   def destroy

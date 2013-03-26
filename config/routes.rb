@@ -1,5 +1,5 @@
 Listenit::Application.routes.draw do
-  root :to => "home#index"
+
 
   get "devise/registrationcontroller"
   get "sessions/new"
@@ -9,7 +9,7 @@ Listenit::Application.routes.draw do
   devise_for :admins
   devise_for :users
 
-
+  root :to => "home#index"
 
   match '/signout', :to => 'sessions#destroy'
   match '/signin',  :to => 'sessions#new'

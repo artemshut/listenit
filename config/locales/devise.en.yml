@@ -34,6 +34,8 @@ en:
   song_name: "Song name"
   tags: "Tags"
   my_playlist: "My playlist"
+  editing: "Edit track"
+  cancel_account: "Cancel my account"
   devise:
     confirmations:
       confirmed: "Your account was successfully confirmed. You are now signed in."

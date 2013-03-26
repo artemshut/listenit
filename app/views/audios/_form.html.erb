@@ -2,7 +2,6 @@
     <% if @audio.errors.any? %>
         <div id="error_explanation">
           <h2><%= pluralize(@audio.errors.count, "error") %> prohibited this audio from being saved:</h2>
-
           <ul>
             <% @audio.errors.full_messages.each do |msg| %>
                 <li><%= msg %></li>
@@ -10,7 +9,6 @@
           </ul>
         </div>
     <% end %>
-
     <div class="field">
       <%= f.file_field :audio %>
     </div>
@@ -22,8 +20,6 @@
       <%= f.label :description %><br />
       <%= f.text_area :description %>
     </div>
-
-
     <div class="button">
       <%= f.submit %>
     </div>

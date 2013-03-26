@@ -1,7 +1,6 @@
 class AudiosController < ApplicationController
 
   def index
-      @title = t(:music_list)
     if params[:tag]
       @audios = Audio.tagged_with(params[:tag])
     else

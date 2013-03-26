@@ -1,0 +1,15 @@
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=0.6" name="viewport">
+  <%= stylesheet_link_tag "player", :media => "all" %>
+</head>
+<body>
+  <ol>
+    <% current_user.audios.each do |audio|  %>
+        <!-- <div class="track-details">
+          <%= audio.metadata['title'] %> <em>by</em> <%=  audio.metadata['artist']%>
+        </div>-->
+        <li><a href="#" data-src=<%= audio.audio.url %>><%= audio.display_name %></a></li>
+    <% end %>
+  </ol>
+</body>
