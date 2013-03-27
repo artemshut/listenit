@@ -2,172 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b641f662-d097-493f-ba0e-fee824166b0d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/092/original/Archive_-_you_make_me_feel.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/099/original/Archive_-_you_make_me_feel.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/095/original/Bushido.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/093/original/Lana_Del_Rey_-_Summertime_Sadness.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/094/original/Motorhead_-_The_Game.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/084/original/The_XX_–_Blood_Red_Moon.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/091/original/The_XX_–_Fantasy.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/085/original/The_xx_–_Teardrops.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2d.fdx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2d.fnm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2d.nrm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2d.tii" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2d.tis" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2d_1.del" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2e.fnm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2e.nrm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2e.tii" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2e.tis" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2f.fnm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2f.nrm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2f.tii" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2f.tis" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2g.fnm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2g.nrm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2g.tii" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2g.tis" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2h.fnm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2h.nrm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2h.tii" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2h.tis" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2i.fnm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2i.nrm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2i.tii" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2i.tis" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2j.fnm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2j.nrm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2j.tii" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2j.tis" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2k.fnm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2k.nrm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2k.tii" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2k.tis" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/development/user/_em.cfs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/096/original/black_or_white.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/108/original/bleeding_love.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/101/original/born_this_way.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/105/original/born_this_way.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/bubble-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/bubble-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/bubble-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/bubble-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/bubble-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/bubble-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/bubble-7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/bubble-8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/bubble-tail2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/102/original/candy_shop.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/083/original/chasing_cars.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/109/original/chasing_cars.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/106/original/crazy_in_love.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/098/original/hot-n-cold.mp3.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/104/original/i_don't_feel_like_dancing.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/110/original/i_don't_feel_like_dancing.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/086/original/infinity.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/097/original/jungle_drum.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/112/original/jungle_drum.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/111/original/let's_get_loud.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index/development/user/segments_rc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/starburst.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/stars.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/sunspot-solr-development.log.lck" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/100/original/the_black_keys_-_lonely_boy_(zaycev.net).mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/103/original/the_look.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/system/audios/audios/000/000/107/original/the_look.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/toolTipLogo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130322181428_create_ratings.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130323011030_change_user_id_type_in_audios.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130323194817_add_playlist_to_audios.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130324180943_acts_as_votable_migration.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130324182631_create_reputation_system.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130324182632_add_reputations_index.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130324182633_add_evaluations_index.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130324182634_add_reputation_messages_index.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130324182635_change_evaluations_index_to_unique.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130324182636_change_reputation_messages_index_to_unique.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130324182637_change_reputations_index_to_unique.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20130325023754_create_audios_users.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2d.fdt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2d.frq" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2d.prx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2e.fdt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2e.fdx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2e.frq" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2e.prx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2f.fdt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2f.fdx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2f.frq" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2f.prx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2g.fdt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2g.fdx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2g.frq" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2g.prx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2h.fdt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2h.fdx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2h.frq" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2h.prx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2i.fdt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2i.fdx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2i.frq" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2i.prx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2j.fdt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2j.fdx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2j.frq" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2j.prx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2k.fdt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2k.fdx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2k.frq" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/data/development/index/_2k.prx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/_all_music.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/_playlist.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/_users_own_tracks.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/audios_user_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/audios_users.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dasd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/jquery-coockie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/jquery.tagsinput.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/jquery.tagsinput.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/jquery.tagsinput.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/ratings/rate.rjs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/rating_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/ratings.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/ratings.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/ratings_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/helpers/ratings_helper_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/style.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/style_controller_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/helpers/style_helper_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solr/pids/development/sunspot-solr-development.pid" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/switchstyler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/vote-ajax.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/votes_controller.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/audios_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/home_helper.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solr/data/development/index/segments.gen" afterPath="$PROJECT_DIR$/solr/data/development/index/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/audios/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/audios/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/admin.rb" afterPath="$PROJECT_DIR$/app/models/admin.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/audio.rb" afterPath="$PROJECT_DIR$/app/models/audio.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/audios_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/audios_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/devise.en.yml" afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/devise.views.ru.yml" afterPath="$PROJECT_DIR$/config/locales/devise.views.ru.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/audios/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/audios/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/audios/index.html.erb" afterPath="$PROJECT_DIR$/app/views/audios/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/listenit.iml" afterPath="$PROJECT_DIR$/.idea/listenit.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/audios/new.html.erb" afterPath="$PROJECT_DIR$/app/views/audios/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="listenit.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1364204944033" ignored="false" />
+    <file path="/Dummy.txt" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1364407652765" ignored="false" />
     <file path="/Gemfile" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1364196869492" ignored="false" />
     <file path="/database.yml" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1364044532729" ignored="false" />
     <file path="/devise.rb" changelist="b641f662-d097-493f-ba0e-fee824166b0d" time="1363348627385" ignored="false" />
@@ -841,12 +680,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../proba" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1149,14 +988,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="25" width="1370" height="745" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30757576" sideWeight="0.91528237" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3128788" sideWeight="0.91528237" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1165,6 +1003,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1229,53 +1068,32 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/views/users/_users_own_tracks.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="100" selection-start="1023" selection-end="1105" vertical-scroll-proportion="-16.875">
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="27" column="100" selection-start="1023" selection-end="1105" vertical-scroll-proportion="-16.875" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/registration_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/tags_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/audios_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="25" selection-start="472" selection-end="486" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/votes_controller.rb">
@@ -1337,6 +1155,13 @@
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="37" selection-start="598" selection-end="598" vertical-scroll-proportion="0.43243244">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/audios_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="25" selection-start="472" selection-end="486" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
