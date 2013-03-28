@@ -1,2 +1,30 @@
-	ListenIt music player realize with using sunspot solr,
-paperclip, and other. Be careful 
+################################################################
+#Listenit - music player, wich has included the next functions:#
+################################################################
+
+
+
+ - registration with mailer
+ - themes change
+ - creation and edit user's playlist
+ - user's statistic
+ - tag cloud
+ - search system by song name, artist name, tag. Automatic reindex
+ - adding new songs
+ - rating system
+ - internalization
+ - ...and sure, it could play music by Audiojs player
+
+
+
+################
+#Used technics:#
+################
+ = ajax
+ = caching system
+ = paperclip
+ = sunspot solr
+ = acts_as_taggable
+ = rating system
+ = MP3Info
+ = l18n
