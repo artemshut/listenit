@@ -1,6 +1,4 @@
-################################################################
-#Listenit - music player, wich has included the next functions:#
-################################################################
+Listenit - music player, wich has included the next functions:
 
 
 
@@ -17,9 +15,8 @@
 
 
 
-################
-#Used technics:#
-################
+Used technics:
+
  = ajax
  = caching system
  = paperclip
