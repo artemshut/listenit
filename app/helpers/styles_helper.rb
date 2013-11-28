@@ -21,16 +21,12 @@ module StylesHelper
   def add_style_id_light
     if user_signed_in?
       current_user.send(:update, [current_user.style_id = input_stylesheet_id[0]])
-
-    else
     end
   end
 
   def add_style_id_dark
    if user_signed_in?
      current_user.send(:update, [current_user.style_id = input_stylesheet_id[1]])
-
-   else
    end
-    end
+  end
 end
